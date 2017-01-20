@@ -15,6 +15,7 @@
 		C7BA217F1E31ED5B00023490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BA217D1E31ED5B00023490 /* LaunchScreen.storyboard */; };
 		C7BA218A1E31ED5B00023490 /* pod_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA21891E31ED5B00023490 /* pod_testTests.m */; };
 		C7BA21951E31ED5B00023490 /* pod_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA21941E31ED5B00023490 /* pod_testUITests.m */; };
+		C7BA21A41E31ED7800023490 /* PodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA21A31E31ED7800023490 /* PodTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C7BA21901E31ED5B00023490 /* pod_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pod_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BA21941E31ED5B00023490 /* pod_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pod_testUITests.m; sourceTree = "<group>"; };
 		C7BA21961E31ED5B00023490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BA21A21E31ED7800023490 /* PodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodTest.h; sourceTree = "<group>"; };
+		C7BA21A31E31ED7800023490 /* PodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C7BA217D1E31ED5B00023490 /* LaunchScreen.storyboard */,
 				C7BA21801E31ED5B00023490 /* Info.plist */,
 				C7BA216F1E31ED5B00023490 /* Supporting Files */,
+				C7BA21A21E31ED7800023490 /* PodTest.h */,
+				C7BA21A31E31ED7800023490 /* PodTest.m */,
 			);
 			path = pod_test;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				C7BA21771E31ED5B00023490 /* ViewController.m in Sources */,
 				C7BA21741E31ED5B00023490 /* AppDelegate.m in Sources */,
 				C7BA21711E31ED5B00023490 /* main.m in Sources */,
+				C7BA21A41E31ED7800023490 /* PodTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
